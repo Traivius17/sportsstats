@@ -1,0 +1,9 @@
+.tab-menu {
+  position: fixed;
+  top: 1;
+  left: 0;
+  width: 250px;
+  height: 83%;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add shadow effect */
+}

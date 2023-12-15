@@ -1,0 +1,85 @@
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Form Select Styles */
+.form-select {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Section Styles */
+section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Team Logo Styles */
+.info section img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Team Details Styles */
+.infoD div {
+  text-align: left;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.info-p {
+  color: black;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.table {
+  width: auto;
+
+  margin-top: 10px;
+  table-layout: auto;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.table th {
+  background-color: #831b1b;
+  color: white;
+}
+
+/* Results Styles */
+.results {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Additional Spacing */
+.results,
+.table-container {
+  margin-bottom: 50px;
+}
