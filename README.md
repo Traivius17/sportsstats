@@ -59,3 +59,14 @@ In the project directory, you can run:
 - `npm test`
 - Launches the test runner in the interactive watch mode.
 
+## 2. Main Features Overview 
+
+### 2.1. Basketball Statistics:
+
+Embark on an in-depth exploration of basketball statistics, meticulously designed to offer users a comprehensive experience...
+
+(Continue listing and describing features as provided)
+
+## 3. User Interface
+
+### 3.1. Navigation Bar
