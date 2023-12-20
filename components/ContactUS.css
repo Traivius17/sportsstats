@@ -1,0 +1,85 @@
+.popup {
+  display: block;
+  position: fixed;
+  width: 100%;
+  max-width: 850px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-image: url("images/dunk.jpg");
+  background-size: cover;
+  background-position: right;
+
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  animation-name: modalSlideUp;
+  animation-duration: 1s;
+}
+h2,
+label {
+  color: white;
+}
+
+@keyframes modalSlideUp {
+  0% {
+    transform: translateY(50%);
+    transform: translateX(50%);
+  }
+}
+
+.contactUS {
+  margin-top: 20px; /* Adjust the top margin */
+  font-family: Arial, sans-serif; /* Change the font if needed */
+}
+
+.contactUS label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contactUS input[type="text"],
+.contactUS input[type="email"],
+.contactUS textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.contactUS textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.contactUS input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contactUS input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style for the h2 */
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.backDrop {
+  background-image: url("images/goal.jpg");
+  background-size: cover;
+  background-position: right;
+}

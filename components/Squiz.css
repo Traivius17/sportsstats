@@ -1,0 +1,56 @@
+/* Quiz container styles */
+.quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Question styles */
+.question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: black;
+}
+
+/* Options button styles */
+.option-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Quiz completion message styles */
+.quiz-completed {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* Restart button styles */
+.restart-btn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.restart-btn:hover {
+  background-color: #45a049;
+}

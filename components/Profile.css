@@ -1,0 +1,242 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(98, 44, 44, 0.1);
+}
+p {
+  color: white;
+}
+
+.profile-settings form {
+  display: grid;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+.click {
+  background-color: rgb(207, 24, 24);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(207, 24, 24);
+  color: white;
+}
+
+#displayProfile {
+  margin-top: 20px;
+}
+
+.dark {
+  background-color: black;
+}
+
+/* Inside your CSS file */
+
+/* Hawks */
+.Hawks {
+  background-image: url("./images/hawks.png"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Celtics */
+.Celtics {
+  background-image: url("./images/celtics.png"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Nets */
+.Nets {
+  background-image: url("./images/nets.png"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Hornets */
+.Hornets {
+  background-image: url("./images/hornets.png"); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+.Bulls {
+  background-image: url("./images/bulls.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Cavaliers {
+  background-image: url("./images/cavs.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Mavericks {
+  background-image: url("./images/mavs.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Nuggets {
+  background-image: url("./images/nuggs.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Pistons {
+  background-image: url("./images/pistons.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Warriors {
+  background-image: url("./images/warriors.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Rockets {
+  background-image: url("./images/rockets.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Pacers {
+  background-image: url("./images/pacers.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Clippers {
+  background-image: url("./images/clipps.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Lakers {
+  background-image: url("./images/lakers.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Grizzlies {
+  background-image: url("./images/grizz.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Heat {
+  background-image: url("./images/heat.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Bucks {
+  background-image: url("./images/bucks.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Timberwolves {
+  background-image: url("./images/wolves.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Pelicans {
+  background-image: url("./images/pelicans.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Knicks {
+  background-image: url("./images/knicks.logo.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.Thunder {
+  background-image: url("./images/thunder.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Magic {
+  background-image: url("./images/magic.png");
+  background-size: cover;
+  background-position: center;
+}
+
+._76ers {
+  background-image: url("./images/76ers.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Suns {
+  background-image: url("./images/suns.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.TrailBlazers {
+  background-image: url("./images/blazers.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Kings {
+  background-image: url("./images/kings.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Spurs {
+  background-image: url("./images/spurs.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Raptors {
+  background-image: url("./images/raptor.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Jazz {
+  background-image: url("./images/jazz.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Wizards {
+  background-image: url("./images/wizards.png");
+  background-size: cover;
+  background-position: center;
+}
