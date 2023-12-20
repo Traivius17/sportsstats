@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Index:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. [System Deployment/Installation](#system-deploymentinstallation)..................................................3
+2. [Main Features Overview](#main-features-overview)...................................................................4
+3. [User Interface](#user-interface)..................................................................................5
 
-## Available Scripts
 
+## List of Figures
+| Figure Number | Title of Figure | Page Number |
+|---------------|-----------------|-------------|
+| 3.1 | Navigation Bar | 5 |
+| 3.2 | Footer | 6 |
+| 3.3 | Home Page (a) | 7 |
+| 3.4 | Home Page(b) | 7 |
+| 3.5 | Home Page(c) | 7 |
+| 3.6 | News Page | 8 |
+| 3.7 | Contact Us Page | 8 |
+| 3.8 | Player Search Page | 9 |
+| 3.9 | Player Statistics | 9 |
+| 3.10 | Team Statistics | 10 |
+
+## 1. System Deployment/Installation 
+
+### 1.1 Hardware and Software Requirements
+
+To access our website, you have two options:
+
+- **Option 1: Online Access**
+  We provide a link to access the website, which is currently hosted on our systems. To use the website, ensure that you have a stable internet connection.
+
+- **Option 2: Local Installation**
+  If you prefer to install our code on your system for local testing, ensure that your system meets the following requirements:
+  - Stable internet connection
+  - Web server (e.g., Apache)
+  - MySQL database
+  - Modern web browser (e.g., Chrome, Firefox, Safari)
+  - Node JS and npm
+
+Here are the steps for installing Score Insights locally:
+
+1. **Database Setup:**
+   - Create a new MySQL database named "COSC625".
+   - Import the provided SQL dump file (sports stat.sql) to set up the necessary tables.
+ 
+2. **Web Application Deployment:**
+   - Clone the COSC-625 repository from GitHub to your web server.
+   - Alternatively, you can download the PHP, CSS, and React JS files and save them on your system. Then, open them on a web server.
+   - Configure the database connection in connect.js
+   - Ensure proper file permissions are set for directories like "uploads" for user profile pictures.
+   - Ensure proper file permissions are set for running the React application.
+
+**Available Scripts:**
 In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
