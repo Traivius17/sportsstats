@@ -164,7 +164,7 @@ Functionalities:
 •	Dropdown or List: Users can choose a team from a dropdown menu or a list of available teams.
 •	Team Information: Upon selecting a team, users can access comprehensive information, including player rosters, team statistics, and other relevant details.
 
-![image](https://github.com/Traivius17/sportsstats/assets/114965842/c2b4ec38-a818-4f4b-af34-f5e35399a996)
+
 
 
 
