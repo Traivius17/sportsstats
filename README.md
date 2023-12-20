@@ -1,3 +1,15 @@
+
+### Sports Stats Project Description:
+Sports Stats represents a versatile and user-centric web application tailored for sports enthusiasts, delivering a comprehensive array of features to elevate your sporting experience. Whether you're an ardent fan, a fervent follower of fantasy sports, or someone seeking profound sports statistics, Sports Stats caters to your needs. Presently centered on basketball, our platform is primed for future expansion, harboring ambitious plans to encompass a wider spectrum of sports under a strategic vision.
+Within the application, users can delve into team standings, individual player statistics, and team analytics specific to a chosen season. Navigating through these functionalities is seamless, facilitated by an intuitive and user-friendly interface that ensures swift and efficient exploration.
+Moreover, users benefit from daily updates on NBA sports news, alongside personalized profile customization options offering various wallpapers, profile images, and the ability to select favorite teams. Additionally, a dedicated help and contact page enables direct communication, empowering users to send queries or seek assistance, and fostering responsive and supportive user-community interaction.
+
+Use Case diagram:
+ 
+<img width="324" alt="image" src="https://github.com/Traivius17/sportsstats/assets/114965842/641123a6-44f9-42b5-b19f-763b2f855c7f">
+
+
+
 # Index:
 
 1. [System Deployment/Installation](#system-deploymentinstallation)
